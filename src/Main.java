@@ -12,5 +12,17 @@ public class Main {
         System.out.println("Job: " + person2.getJob());
         System.out.println("Nationality: " + person2.getNationality());
         System.out.println("Gender: " + person2.getGender());
+        System.out.println("*****************************");
+        Wall wall = new Wall(5,4);
+
+        System.out.println("area= " + wall.getArea());
+
+        wall.setHeight(-1.5);
+
+        System.out.println("width= " + wall.getWidth());
+
+        System.out.println("height= " + wall.getHeight());
+
+        System.out.println("area= " + wall.getArea());
     }
 }
